@@ -1,25 +1,6 @@
-Palindrome : 
-
-def swap(i,j):
-    n=5
-    word=input("enter a word")
-    i=0
-    j=n
-    temp=0
-    for i in word:
-        for j in word:
-            if (i==j):
-                swap(i,j)
-                temp=i
-                i=j
-                j=temp
-    i=i+1
-    j=j-1
-
-
 vowels:
 
-Vowel=[‘a’,’e’,’i’,’o’,’u’]
+Vowel=[â€˜aâ€™,â€™eâ€™,â€™iâ€™,â€™oâ€™,â€™uâ€™]
 word=input ("enter a word")
 count=0
 for letter in word:
