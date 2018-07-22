@@ -25,12 +25,22 @@ def bmi(height,weight):
 
     else:
         print('your weight is underweight')
-bmi()
+
   
 def pattern(n):
     for i in range(0,n):
         for j in range(0,i+1):
        	    print("  *  ",end="")
             print("\r")
- pattern()
+
+String reverse 
+
+def reverse(s):
+  str = ""
+  for i in s:
+    str = i + str
+  return str
+
+s = input("enter a word")
+print(reverse(s))
 
