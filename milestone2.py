@@ -18,3 +18,9 @@ def fact(n):
         fact = fact * i
         print(fact)
 fact()        
+
+sentence=input("enter a words:")
+word=sentence.split()
+word.sort()
+for i in word:
+    print(i)
