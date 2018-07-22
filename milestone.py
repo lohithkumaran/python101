@@ -1,6 +1,6 @@
 vowels:
 
-Vowel=[‘a’,’e’,’i’,’o’,’u’]
+Vowel=[‘a’,’e’,’i’,’o’,’u’,'A','E','I','O','U']
 woruod=input ("enter a word")
 count=0
 for letter in word:
