@@ -1,15 +1,6 @@
-# Python program to find the largest number among the three input numbers
-
-# change the values of num1, num2 and num3
-# for a different result
 num1 = 10
 num2 = 14
 num3 = 12
-
-# uncomment following lines to take three numbers from user
-#num1 = float(input("Enter first number: "))
-#num2 = float(input("Enter second number: "))
-#num3 = float(input("Enter third number: "))
 
 if (num1 >= num2) and (num1 >= num3):
    largest = num1
@@ -19,7 +10,8 @@ else:
    largest = num3
 
 print("The largest number between",num1,",",num2,"and",num3,"is",largest)
-
+output
+The largest number between 10 , 14 and 12 is 14
 
 LCD
 
@@ -30,28 +22,29 @@ y2 = 'Hello'
 x3 = [1,2,3]
 y3 = [1,2,3]
 
-# Output: False
 print(x1 is not y1)
+Output: False
 
-# Output: True
 print(x2 is y2)
+Output: True
 
-# Output: False
+
 print(x3 is y3)
+Output: False
 
 
 Membership operator
 x = 'Hello world'
 y = {1:'a',2:'b'}
-
-# Output: True
 print('H' in x)
+Output: True
 
-# Output: True
+
 print('hello' not in x)
+Output: True
 
-# Output: True
 print(1 in y)
+Output: True
 
-# Output: False
 print('a' in y)
+Output: False
