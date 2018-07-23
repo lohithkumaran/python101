@@ -1,18 +1,22 @@
 True and True
+True 
+
 1 == 1 and 2 == 2
+True
 
 x = True
 y = False
 
-# Output: x and y is False
+
 print('x and y is',x and y)
+Output: x and y is False
 
-# Output: x or y is True
 print('x or y is',x or y)
+Output: x or y is True
 
-# Output: not x is False
 print('not x is',not x)
-
+Output: not x is False
+	
 Membership operators
 
 a = True
@@ -32,19 +36,27 @@ if ( y not in list ):
    print("Line 2 - y is not available in the given list")
 else:
    print("Line 2 - y is available in the given list")
-   
+
+Output
+('a and b is', False)
+('a or b is', True)
+('not a is', False)
+Line 1 - x is available in the given list
+Line 2 - y is not available in the given list
+
 
 
 Operators Summary:
-#Arithmetic Operators
+
 x= 4	
 y= 5
 print x + y
-
+9
 #Comparison Operators
 x = 4
 y = 5
 print('x > y  is',x>y)
+False
 
 #Assignment Operators
 num1 = 4
@@ -66,27 +78,41 @@ print('a and b is',a and b)
 print('a or b is',a or b)
 print('not a is',not a)
 
+output
+a and b is False
+a or b is True
+not a is False
+
 #Membership Operators
 x = 4
 y = 8
 list = [1, 2, 3, 4, 5 ];
 if ( x in list ):
-   print "Line 1 - x is available in the given list"
+   print ("Line 1 - x is available in the given list")
 else:
-   print "Line 1 - x is not available in the given list"
+   print ("Line 1 - x is not available in the given list")
 if ( y not in list ):
-   print "Line 2 - y is not available in the given list"
+   print ("Line 2 - y is not available in the given list")
 else:
-   print "Line 2 - y is available in the given list"
+   print ("Line 2 - y is available in the given list")
+output
+Line 1 - x is available in the given list
+Line 2 - y is not available in the given list
+
 
 #Identity Operators
 x = 20
 y = 20
 if ( x is y ):
-	print "x & y  SAME identity"
+	print ("x & y  SAME identity")
 y=30
 if ( x is not y ):
-	print "x & y have DIFFERENT identity"
+	print ("x & y have DIFFERENT identity")
+output
+x & y  SAME identity
+x & y have DIFFERENT identity
+
+
 
 #Operator precedence
 v = 4
@@ -95,4 +121,7 @@ x = 8
 y = 2
 z = 0
 z = (v+w) * x / y;   
-print "Value of (v+w) * x/ y is ",  z
+print ("Value of (v+w) * x/ y is ",  z)
+
+output
+Value of (v+w) * x/ y is  36.0
