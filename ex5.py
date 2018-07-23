@@ -1,4 +1,3 @@
-#new line
 print("Mary had a little lamb.")
 print("And everywhere that Mary went.")
 print("."*10)
@@ -14,3 +13,8 @@ end9="r"
 end10="g"
 end11="e"
 end12="r"
+
+output
+Mary had a little lamb.
+And everywhere that Mary went.
+..........
