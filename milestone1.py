@@ -7,7 +7,11 @@ for letter in word:
     if letter in vowel:
     	count=count+1               
 print(count)
+output:
+    LohIth
+    count=2
 
+    
 Bmi Calculator:
 def bmi(height,weight):
     height = float(input("Your height in metres:"))
@@ -32,8 +36,14 @@ def pattern(n):
         for j in range(0,i+1):
        	    print("  *  ",end="")
             print("\r")
+output:
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
 
-String reverse 
+ String reverse 
 
 def reverse(s):
   str = ""
@@ -43,6 +53,9 @@ def reverse(s):
 
 s = input("enter a word")
 print(reverse(s))
+output:
+enter a word:lohith
+    htihol
 
 Special_character:
 def special_character(str):
@@ -55,7 +68,11 @@ def special_character(str):
             count=count+1
     print(count)
 special_character()
+output:
+Enter a word:{abcd{}][$@!efg
+7
 
+    
 Factorial :
 def fact(n):
     n = 5
@@ -64,9 +81,15 @@ def fact(n):
         fact = fact * i
         print(fact)
 fact()        
+output:
+5
+120
 
 sentence=input("enter a words:")
 word=sentence.split()
 word.sort()
 for i in word:
     print(i)
+output:
+enter a word : lohith kumar
+kumar lohith
