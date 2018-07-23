@@ -10,6 +10,12 @@ print(y)
 
 print(f"I said: {x}")
 print(f"I also said: '{y}'")
+output:
+There are 10 types of people.
+Those who know binary and those who don't.
+I said: There are 10 types of people.
+I also said: 'Those who know binary and those who don't.'
+
 
 hilarious = False
 joke_evaluation = "Isn't that joke so funny?! {}"
@@ -20,3 +26,7 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 print(w + e)
+
+output
+Isn't that joke so funny?! False
+This is the left side of...a string with a right side.
