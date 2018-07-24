@@ -1,18 +1,21 @@
-vowels:
-
-Vowel=[‘a’,’e’,’i’,’o’,’u’,'A','E','I','O','U']
-woruod=input ("enter a word")
-count=0
-for letter in word:
-    if letter in vowel:
-    	count=count+1               
-print(count)
-output:
-    LohIth
-    count=2
-
+import sys
+vowels(str)
+bmi(height,weight)
+pattern(n)
+reverse(s)
+special_character(str)
+fact(n)
+sort(str)
+def vowels(str):
+    Vowel=[‘a’,’e’,’i’,’o’,’u’,'A','E','I','O','U']
+    word=input ("enter a word")
+    count=0
+    for letter in word:
+        if letter in vowel:
+    	    count=count+1               
+    print(count)
+    return
     
-Bmi Calculator:
 def bmi(height,weight):
     height = float(input("Your height in metres:"))
     weight = int(input("Your weight in kilograms:"))
@@ -29,35 +32,24 @@ def bmi(height,weight):
 
     else:
         print('your weight is underweight')
-
+    return
   
 def pattern(n):
     for i in range(0,n):
         for j in range(0,i+1):
        	    print("  *  ",end="")
             print("\r")
-output:
-    *
-    * *
-    * * *
-    * * * *
-    * * * * *
-
- String reverse 
+    return        
 
 def reverse(s):
-  str = ""
-  for i in s:
-    str = i + str
-  return str
+    str = ""
+    for i in s:
+        str = i + str
+    return str
 
-s = input("enter a word")
-print(reverse(s))
-output:
-enter a word:lohith
-    htihol
-
-Special_character:
+    s = input("enter a word")
+    print(reverse(s))
+    
 def special_character(str):
     special_character=['{','}','[',']','$','@','(',')','!']
     word=input ("enter a word")
@@ -67,29 +59,28 @@ def special_character(str):
             print(letter)
             count=count+1
     print(count)
-special_character()
-output:
-Enter a word:{abcd{}][$@!efg
-7
-
-    
-Factorial :
+    return
+   
 def fact(n):
     n = 5
     fact = 1
     for i in range(1,n+1):
         fact = fact * i
         print(fact)
-fact()        
-output:
-5
-120
+    return   
+def sort(str):
+    sentence=input("enter a words:")
+    word=sentence.split()
+    word.sort()
+    for i in word:
+        print(i)
+    return    
+if __name__ == "__main__":
+    arg_len = len(sys.argv [1:])
+    print(arg_len)
+    if (arg_len <1):
+        print("ERROR\t:exitting......arguments passed")
+        sys.exit()
 
-sentence=input("enter a words:")
-word=sentence.split()
-word.sort()
-for i in word:
-    print(i)
-output:
-enter a word : lohith kumar
-kumar lohith
+    print("calling main function")
+    main(sys.argv[1])
